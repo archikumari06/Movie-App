@@ -1,18 +1,19 @@
-*{
+ *{
     box-sizing: border-box;}
 body{
     background-color: black;
     font-family: sans-serif;
+    color: white;
 }
-h3{
-    color:aliceblue;
+ h3{
+    /* color:aliceblue;
     text-align: center;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
     /* width: 100%; */
     overflow: hidden;
     white-space: nowrap;
 
-}
+} 
 .topnav{
     overflow:hidden;
     background-color:#131720;
@@ -43,9 +44,10 @@ form{
 }
 
 input{
-    all: unset;
+    /* all: unset; */
     font: 15px system-ui;
-    color: #fff;
+    /* color: #fff; */
+    color: black;
     height: 100%;
     width: 100%;
     padding: 6px 9px;
